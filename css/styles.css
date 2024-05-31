@@ -1,0 +1,64 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo da Seção de Introdução */
+.intro {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #2e8b57;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Estilo da Seção da Imagem */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #4caf50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
